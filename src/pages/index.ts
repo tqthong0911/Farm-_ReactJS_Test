@@ -1,2 +1,3 @@
 import Employees from "./Employees";
-export { Employees };
+import Counter from "./Counter";
+export { Employees, Counter };

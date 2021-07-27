@@ -5,7 +5,6 @@ import { States } from "./";
 export const getEmployeesAsync = createAsyncThunk(
   "employee/getEmployee",
   async () => {
-    debugger;
     const response = await fetchEmployees();
     return {
       ...response,
